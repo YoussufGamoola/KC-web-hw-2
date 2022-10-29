@@ -1,0 +1,198 @@
+body {
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+#td {
+  display: flex;
+  color: blanchedalmond;
+}
+
+a {
+  color: black;
+  text-decoration-line: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#a1 {
+  padding-right: 20px;
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+#a2 {
+  display: flex;
+}
+
+#a3 {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#imbd {
+}
+
+#tul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.topnav {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.container {
+  background-color: rgb(52, 49, 49);
+  width: 1688px;
+}
+
+#img1 {
+  width: 60px;
+  padding: 5px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.img {
+  width: 200px;
+  margin-top: 7px;
+}
+
+#th {
+  font-size: 24px;
+  padding-left: 5px;
+  color: black;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+.d {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border: 4px solid black;
+  border-radius: 7%;
+  background-color: #e9d8a6;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.التقييم {
+  width: 80px;
+  margin-bottom: 7px;
+}
+
+.horror {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border: 4px solid black;
+  border-radius: 7%;
+  background-color: #83c5be;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border: 4px solid black;
+  border-radius: 7%;
+  background-color: #bc4749;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#theLast {
+  width: 200px;
+  margin-top: 7px;
+}
+
+.p {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
+
+.h1 {
+  color: bisque;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: auto;
+  height: 50px;
+  background-color: rgba(2, 14, 14, 0.597);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  padding: 20px;
+  margin: 0%;
+}
+
+button {
+  background-color: darkgrey;
+  width: 50px;
+  height: 40px;
+  color: black;
+  text-decoration: none;
+}
+
+.action:hover,
+.horror:hover,
+.animation:hover {
+  cursor: grab;
+}
